@@ -44,13 +44,13 @@ pip install SpeechRecognition pyttsx3 cohere pyaudio
 
 1-Get Your Cohere API Key:
 
-    -Sign up on Cohere and get your API key.
-    -Replace 'your-cohere-api-key' in the code with your actual API key.
+.Sign up on Cohere and get your API key.
+.Replace 'your-cohere-api-key' in the code with your actual API key.
 
 2-Configure Voice Settings (Optional):
 
-   -You can customize the voice properties such as speech rate, volume, and voice selection by editing the pyttsx3 settings in the text_to_audio function.
-   -To view available voices on your system, you can refer to the pyttsx3 section in the script, which lists all available voices and their attributes.
+.You can customize the voice properties such as speech rate, volume, and voice selection by editing the pyttsx3 settings in the text_to_audio function.
+.To view available voices on your system, you can refer to the pyttsx3 section in the script, which lists all available voices and their attributes.
 
 
 
@@ -59,14 +59,13 @@ pip install SpeechRecognition pyttsx3 cohere pyaudio
 
 Simply run the script in terminal using Python:
 
-python chatbot.py
+    python chatbot.py
 
-  
-   -The chatbot will prompt you to speak something. It will listen to your voice, convert it to text, generate a response using Cohere, and then speak the response back to you.
+  .The chatbot will prompt you to speak something. It will listen to your voice, convert it to text, generate a response using Cohere, and then speak the response back to you.
 
 2-Exit the Conversation:
 
-   -To exit the conversation, say exit, and the chatbot will stop.
+.To exit the conversation, say exit, and the chatbot will stop.
 
 
 
@@ -74,17 +73,17 @@ python chatbot.py
 
 1-Speech Recognition Issues:
 
-   -Ensure your microphone is working and properly connected.
+.Ensure your microphone is working and properly connected.
 
-   -If the bot cannot recognize speech, try speaking clearly or adjusting the microphone sensitivity.
+.If the bot cannot recognize speech, try speaking clearly or adjusting the microphone sensitivity.
 
 2-Audio Playback:
 
-   -If there is an issue with the audio playback (especially on Windows), ensure the correct audio device is selected as the default output device.
+.If there is an issue with the audio playback (especially on Windows), ensure the correct audio device is selected as the default output device.
 
 3-API Key Errors:
 
-   -Ensure your Cohere API key is valid and correctly pasted in the script.
+.Ensure your Cohere API key is valid and correctly pasted in the script.
 
 
 
