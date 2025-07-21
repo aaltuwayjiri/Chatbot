@@ -36,7 +36,7 @@ Before running this project, make sure you have the following:
 # Install Required Libraries
 Run the following commands to install the required dependencies:
 
-pip install SpeechRecognition pyttsx3 cohere pyaudio
+    pip install SpeechRecognition pyttsx3 cohere pyaudio
 
 
 
