@@ -44,8 +44,8 @@ pip install SpeechRecognition pyttsx3 cohere pyaudio
 
 1-Get Your Cohere API Key:
 
-   -Sign up on Cohere and get your API key.
-   -Replace 'your-cohere-api-key' in the code with your actual API key.
+    -Sign up on Cohere and get your API key.
+    -Replace 'your-cohere-api-key' in the code with your actual API key.
 
 2-Configure Voice Settings (Optional):
 
